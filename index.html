@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document(GitHub)</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/fb5d9aac26.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li id="git-icon"><i class="fab fa-github"></i></li>
+            <li class="item"><a href="#">Features</a></li>
+            <li class="item"><a href="#">Business</a></li>
+            <li class="item"><a href="#">Explore</a></li>
+            <li class="item"><a href="#">Marketpalce</a></li>
+            <li class="item"><a href="#">Pricing</a></li>
+            <li style="float: right;"><input type="text" placeholder="Search GitHub"></li>
+            <li style="float: right;"><a href="#">Sign in</a></li>
+            <li style="float: right;"><a href="#">Sign up</a></li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+        </ul>
+    </nav>
+    <section id="home">
+        <div id="leftside">
+            <h1>Build for developers</h1>
+            <p>
+                GitHub is a development platform inspired by the way you work.
+                From <strong style="color: white;"> open source</strong> to <strong style="color: white;">business</strong> , you can host and review code, manage
+                projects, and build software alongside millions of other developers.
+            </p>
+        </div>
+        <div id="form">
+            <form>
+                <label for="name">Username</label><br>
+                <input type="text" id="name" name="name" placeholder="Pick a username"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="yoy@example.com"><br><br>
+                <label for="pass">Password</label><br>
+                <input type="password" id="pass" name="pass" placeholder="Create a password"><br>
+                <p>Make sure it's at least 15 characters OR at least 8 characters including a number and a lowercase letter.</p>
+                <button type="button" id="signUpGithub">Sign up for GitHub</button>
+                <p style="text-align: center;">By creating an account, you agree to the <strong style="color: blue;">Terms of Service</strong>  and <strong style="color: blue;">privacy setting.</strong>
+                    We'll occasionally send you account-related emails.</p>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div id="flex-container">
+            <div id="item">
+                <p id="ein">GitHub for teams</p>
+                <p id="fin">A better way to work together</p>
+                <p id="gin">GitHub brings teams together to work through problems, move ideas forward.<br>
+                    and learn from each other along the way.</p>
+                <p style="text-align:center;">
+                    <button id="signUpTeam" type="button">Sign up your team</button></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
