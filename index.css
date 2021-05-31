@@ -1,0 +1,181 @@
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+/* Navigation Bar */
+.icon-bar{
+    background: whitesmoke;
+}
+#git-icon{
+    font-size:36px;
+    color: white;
+}
+.navbar-style{
+    /* display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden; */
+    background-color: black;
+}
+
+/* .navbar-style::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+} */
+
+/* .navbar-style ul{
+    display: flex;
+    padding: 0rem 5rem 0rem 8rem;
+} */
+
+/* .navbar-style ul li{
+    display: flex;
+    list-style: none;
+} */
+
+.navbar-style ul li a{
+    /* display: block;
+    float: left;
+    padding: 14px 22px; */
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+.navbar-style ul li input{
+    margin: 9px 27px 8px 163px;
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.navbar-style ul li a:hover{
+    color: black;
+    background-color: whitesmoke;
+
+}
+/* Home Section */
+#home{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 7rem 5rem 7rem;
+    background-color: #2e2a3f;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#leftside{
+    display: block;
+    width: 50%;
+    height: 100%;
+    padding: 0rem 3rem 0rem 3rem;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+#leftside h1{
+    font-size: 6rem;
+}
+
+#leftside p{
+    font-size: 2rem;
+    color: gray;
+}
+
+#form{
+    color: black;
+    display: block;
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+    background-color: whitesmoke;
+}
+
+#form label{
+    size: 16px;
+}
+#form input{
+    width: 100%;
+    padding: 9px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#form button{
+    text-align: center;
+    background-color:rgb(18,174,18);
+    color: white;
+    font-weight: bold;
+    padding: 8px 8px;
+    margin: 16px 0px 7px 0px;;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+
+/* #name{
+
+} */
+
+#flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+#item{
+    padding: 1rem;
+}
+
+#ein{
+    text-align: center;
+    color: black;
+}
+
+#fin{
+    color: #000;
+    text-align: center;
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+#gin{
+    margin-top: 10px;
+    
+    color: #000;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+#signUpTeam{
+    text-align: center;
+    background-color: white;
+    color: rgb(10, 124, 238);
+    font-weight: bolder;
+    padding: 8px 8px;
+    border: 2px solid rgb(243, 236, 236);
+    margin: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 6px;
+}
+#signUpTeam:hover{
+    color: white;
+    background-color:rgb(10, 124, 238) ;
+}
