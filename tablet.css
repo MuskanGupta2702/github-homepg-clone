@@ -1,0 +1,52 @@
+*{
+    text-decoration: none;
+    
+}
+
+/* Navigation Bar */
+.icon-bar{
+    background: whitesmoke;
+}
+
+.navbar-style ul li a{
+    /* display: none; */
+}
+
+#in{
+    display: none;
+}
+
+/* #navbar ul li a,input{
+    display: none;
+}
+
+#navbar a.icon{
+    float: right;
+    display: block;
+} */
+
+
+
+#home{
+flex-direction: column;
+}
+
+
+#leftside{
+width: 100%;
+}
+
+#leftside h1,p{
+text-align: center;
+}
+
+#leftside p{
+    padding-bottom: 27px;
+    color: #9a9494;
+}
+#form{
+width: 61%;
+}
+#form input{
+
+}

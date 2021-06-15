@@ -1,33 +1,23 @@
 *{
     text-decoration: none;
-    
 }
-
-#navbar ul li a,input{
-    display: none;
-}
-
-#navbar a.icon{
-    float: right;
-    display: block;
-}
-
-
 
 #home{
-flex-direction: column;
-}
-#home h1{
-    
+
 }
 
 #leftside{
 
 }
 
+#leftside h1{
+
+}
+#leftside p{
+
+}
+
 #form{
-
+    
 }
-#form input{
 
-}
