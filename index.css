@@ -68,17 +68,15 @@
     align-items: center;
     justify-content: center;
     padding: 5rem 7rem 5rem 7rem;
-    background-color: #2e2a3f;
-    opacity: 0.8;
+    background: url(simple-codelines.svg), #2b3137;
     height: 100%;
     width: 100%;
-    z-index: -1;
 }
 #leftside{
     display: block;
-    width: 50%;
+    width: 37%;
     height: 100%;
-    padding: 0rem 3rem 0rem 3rem;
+    margin: 0px 50px;
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Nunito', sans-serif;
@@ -96,20 +94,25 @@
 #form{
     color: black;
     display: block;
-    width: 50%;
+    width: 34%;
     height: 100%;
     padding: 2rem;
+    margin: 0px 50px;
     background-color: whitesmoke;
+    border-radius: 5px;
 }
 
 #form label{
     size: 16px;
+    margin: 5px 0px;
 }
 #form input{
     width: 100%;
     padding: 9px 12px;
     margin: 8px 0;
     box-sizing: border-box;
+    border-radius: 5px;
+    border-color:azure;
 }
 
 #form button{
